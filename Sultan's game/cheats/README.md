@@ -3,7 +3,7 @@ This mod is published on Steam [page](https://steamcommunity.com/sharedfiles/fil
 
 ## Feature
 - Infinite event resetting Sultan card countdown
-- Add 2887 golden dice (tell me that's not enough)
+- Add 2887 golden dices
 - Automatically popping coin & intel methink events every round (copy from: https://steamcommunity.com/sharedfiles/filedetails/?id=3489067376)
 
 ## Dev
