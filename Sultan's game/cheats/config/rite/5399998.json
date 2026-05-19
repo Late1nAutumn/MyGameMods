@@ -1,0 +1,76 @@
+ {
+        "id": 5399998, // 改自5006558
+        "name": "天意救我",
+        "text": "可曾记得无忧无虑的童年时光？可曾记得无牵无挂的赤子之心？如今，看不见的溪流正在冲刷时间的痕迹。",       
+        "tips": "",
+        "mapping_id":8001141,
+        "once_new":0,
+        "round_number": 0,
+        "waiting_round": 1,
+        "waiting_round_end_action":[
+        ],        
+        "method_settlement": "",
+        "auto_begin": 0,
+        "auto_result": 0,
+        "location": "神殿区:[2,10]", 
+        "icon": "rite_9", 
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "战局对我们的战士太不利了"
+        ],
+        "open_conditions": [
+        ],
+        "random_text":{
+        },
+        "random_text_up":{  
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "guid":"10626abc-1530-4cec-90ca-6c47bafa34d1",
+                "condition": {
+                },
+                "result_title":"沙漏倒转",
+                "result_text": "不就是几粒沙子么，看我把它推回去！",
+                "result": 
+                {    
+                    "rebirth.s1": 0 //苏丹卡时间重置
+                },
+                "action": { 
+                    "rite": 5399998 //天意大手发力了
+                }
+            }
+        ],               
+        "settlement_extre": [
+        ],
+        "cards_slot":
+        {
+            "s1":
+                {
+                    "guid":"dd970325-0b22-41c3-81ff-9eb1751db671",
+                    "condition": 
+                    {
+                        "type":"sudan"
+                    },
+                    "open_adsorb":0,
+                    "is_key":0,
+                    "is_empty":0, // 不能为空
+                    "is_enemy":0, 
+                    "text":"放入苏丹卡",                   
+                    "pops":[
+                        {
+                            "condition":{
+                            },
+                            "action":{
+                                "pop.5006558_s1_01.self":"<i>（震动）</i>"
+                            }
+                        }
+                    ] 
+                    
+                }
+        }
+    } 
